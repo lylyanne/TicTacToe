@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.main {
+    width: 600px;
+    margin: 100px auto;
+}
+
+.sq {
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    border: 5px solid black;
+    float: left;
+}
+
+.hoverable:hover {
+    background-color: yellow;
+}
+
+h1, .endgame {
+    font-size: 100px;
+    text-align: center;
+}
+
+.x, .o {
+    background-color: white;
+    font-size: 200px;
+    text-align: center;
+    line-height: 150px;
+    vertical-align: middle;
+
+}
+
+.x {
+    color: blue;
+}
+
+.o {
+    color: red;
+}
+
+.winner {
+    background-color: cadetblue;
+}
